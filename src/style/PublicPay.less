@@ -1,0 +1,225 @@
+// // 公用清楚浮动
+.clearFloat(){
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+}
+// 公用清楚浮动
+.bg {
+  background: #F0F0F0;
+}
+.Banner-El {
+  width: 100%;
+  background: #F0F0F0;
+  overflow: hidden;
+  .banner {
+    width: 94%;
+    margin: 0.5rem auto 0.24rem;
+    height: 7.81rem;
+    .local {
+      color: white;
+      font-size: 0.63rem;
+      padding: 0.22rem 0 0 0.5rem;
+      i {
+        width: 0.9rem;
+        height: 1.1rem;
+        display: inline-block;
+        vertical-align: middle;
+        background: url("../assets/MyHome/home-curposition.svg") no-repeat center;
+      }
+    }
+    .moeny {
+      text-align: center;
+      color: white;
+      font-size: 1.6rem;
+      line-height: 2.06rem;
+      margin: 0.99rem 0 0.88rem;
+    }
+    .consume {
+      text-align: center;
+      color: white;
+      font-size: 0.63rem;
+    }
+  }
+  // banner
+  .el {
+    background: url("../assets/Other/bannerEl.svg") no-repeat center;
+    background-size: 100%;
+  }
+  .ga {
+    background: url("../assets/Other/bannerGa.svg") no-repeat center;
+    background-size: 100%;
+  }
+  .te {
+    background: url("../assets/Other/bannerTe.svg") no-repeat center;
+    background-size: 100%;
+  }
+  .wa {
+    background: url("../assets/Other/bannerWa.svg") no-repeat center;
+    background-size: 100%;
+  }
+}
+.Payment {
+  padding: 0 3%;
+  background: white;
+  height: 9.06rem;
+  ul {
+    padding: 0.5rem 0 0;
+    li {
+      margin: 0.51rem 0 0.69rem;
+      display: flex;
+      justify-content: space-between;
+      // &:after {
+      //   .clearFloat;
+      // }
+      span {
+        font-size: 0.75rem;
+        color: #737373;
+        // float: left;
+      }
+      p {
+        color: #AAAAAA;
+        font-size: 0.63rem;
+        text-align: right;
+        // float: right;
+        
+      }
+    }
+  }
+  .Payment-btn {
+    margin: 1.88rem 0;
+    button {
+      width: 13rem;
+      height: 2.06rem;;
+      line-height: 2.06rem;
+    }
+  }
+}
+.PayHistroy {
+  margin-top: 0.14rem;
+  height: 20.06rem;
+  padding: 0 3%;
+  background: white;
+  .PayHistroy-title {
+    padding: 0.4rem 0 0;
+    color: #555555;
+  }
+  .PayHistroy-SelectTime {
+    text-align: center;
+    margin-bottom: 0.19rem;
+    i {
+      width: 0.87rem;
+      height: 0.63rem;
+      margin-left: 0.44rem;
+      display: inline-block;
+      vertical-align: middle;
+      background: url("../assets/Other/PayHistroyIcon.svg") no-repeat center;
+    }
+  }
+  ul {
+    margin-left: 0.12rem;
+    text-align: center;
+    &:after {
+        .clearFloat;
+      }
+    li {
+      width: 25%;
+      height: 5.5rem;
+      border:0.06rem solid #E8E8E8;
+      margin: -0.06rem 0 0 -0.06rem;
+      box-sizing: border-box; 
+      float: left;
+      span {
+        color: #DDDDDD;
+        font-size: 0.88rem;
+        margin-top: 2.00rem;
+        line-height:1.25rem;
+      }
+      .stateone {
+        color: #AAAAAA;
+        font-size: 0.63rem;
+      }
+      .colorgry {
+        color: #674DF9;
+      }
+      .stattwo {
+        color: #AAAAAA;
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+// PAYINOFO
+.PayInfo-top {
+  background: white;
+  overflow: hidden;
+  .PayInfo-top-tip {
+      text-align: center;
+      color: #555555;
+      font-size: 1.13rem;
+      margin: 0.96rem 0 1.21rem 0;
+      line-height: 1.56rem;
+      span {
+        font-size: 0.88rem;
+        display: inline-block;
+      }
+  }
+  .PayInfo-top-money {
+    color: #FF5151;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 0.52rem;
+  }
+}
+.PayInfo-infoList {
+  padding: 0 3%;
+  margin: 0.19rem 0;
+  background: white;
+  overflow: hidden;
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin: 0.7rem;
+      span {
+        color: #737373;
+        font-size: 0.75rem;
+      }
+      p {
+        color: #AAAAAA;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+.PayInfo-way {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 0 3%;
+  height: 2.38rem;
+  line-height: 2.38rem;
+  font-size: 0.88rem;
+  color: #696969;
+  border-top:0.06rem solid #EAE9E9;
+  border-bottom:0.06rem solid #EAE9E9;
+  margin: 3rem 0 1.63rem;
+  span {
+    display: block;
+  }
+  p {
+    i {
+      width: 1.5rem;
+      height: 1.38rem;
+      line-height: 1.38rem;
+      vertical-align:middle;
+      display: inline-block;
+      background: url("../assets/Other/wx-pay.svg") no-repeat center;
+      background-size: 100% 100%;
+    }
+  }
+}

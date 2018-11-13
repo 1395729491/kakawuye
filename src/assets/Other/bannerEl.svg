@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="349px" height="125px" viewBox="0 0 349 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>咔咔物业-首页-水费 copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="112.625287%" y1="-3.07094846%" x2="-3.98812072%" y2="102.795376%" id="linearGradient-1">
+            <stop stop-color="#F37423" offset="0%"></stop>
+            <stop stop-color="#FED366" offset="64.7027094%"></stop>
+            <stop stop-color="#F5E77A" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.5" y="0" width="344" height="119.617188" rx="7"></rect>
+        <filter x="-1.3%" y="-3.8%" width="104.4%" height="112.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="3" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.99354273   0 0 0 0 0.756069025   0 0 0 0 0.662675438  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="咔咔物业-首页-电费缴纳" transform="translate(-15.000000, -70.000000)">
+            <g id="插图" transform="translate(15.000000, 70.000000)">
+                <g id="Group-5" transform="translate(289.000000, 25.000000)" fill="#F9A646" opacity="0.747395833">
+                    <rect id="Rectangle-36" x="0" y="0.660355179" width="33.7400017" height="3.67928964" rx="1.83964482"></rect>
+                    <rect id="Rectangle-36" x="23.7599983" y="4.33964482" width="2.74000001" height="4.5"></rect>
+                    <path d="M14,7.4234375 L55,7.4234375 L55,11.4234375 L14,11.4234375 C12.8954305,11.4234375 12,10.528007 12,9.4234375 L12,9.4234375 C12,8.318868 12.8954305,7.4234375 14,7.4234375 Z" id="Rectangle-36"></path>
+                    <circle id="Oval-3" cx="39" cy="2" r="2"></circle>
+                    <circle id="Oval-3" cx="47" cy="2" r="2"></circle>
+                </g>
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-5-Copy" transform="translate(7.000000, 96.435547)" fill="#FDCF63">
+                    <path d="M14.7599983,7.4234375 L14.7599983,4.33964482 L1.83964482,4.33964482 C0.823637041,4.33964482 1.24425068e-16,3.51600778 0,2.5 C-1.24425068e-16,1.48399222 0.823637041,0.660355179 1.83964482,0.660355179 L24.900355,0.660355179 C25.9163627,0.660355179 26.7399998,1.48399222 26.7399998,2.5 C26.7399998,3.51600778 25.9163627,4.33964482 24.900355,4.33964482 L17.4999983,4.33964482 L17.4999983,7.4234375 L51,7.4234375 C52.1045695,7.4234375 53,8.318868 53,9.4234375 C53,10.528007 52.1045695,11.4234375 51,11.4234375 L13,11.4234375 C11.8954305,11.4234375 11,10.528007 11,9.4234375 C11,8.318868 11.8954305,7.4234375 13,7.4234375 L14.7599983,7.4234375 Z M38,4 C36.8954305,4 36,3.1045695 36,2 C36,0.8954305 36.8954305,0 38,0 C39.1045695,0 40,0.8954305 40,2 C40,3.1045695 39.1045695,4 38,4 Z M30,4 C28.8954305,4 28,3.1045695 28,2 C28,0.8954305 28.8954305,0 30,0 C31.1045695,0 32,0.8954305 32,2 C32,3.1045695 31.1045695,4 30,4 Z" id="Oval-3"></path>
+                </g>
+                <g id="Group" transform="translate(38.000000, 27.000000)">
+                    <g id="Group-6" transform="translate(273.000000, 40.000000)" fill="#FDC85E">
+                        <ellipse id="Oval-7" cx="4" cy="3.66666667" rx="1.33333333" ry="3.66666667"></ellipse>
+                        <ellipse id="Oval-7" transform="translate(4.000000, 3.666667) scale(-1, 1) rotate(90.000000) translate(-4.000000, -3.666667) " cx="4" cy="3.66666667" rx="1.33333333" ry="3.66666667"></ellipse>
+                    </g>
+                    <g id="Group-6" transform="translate(0.500000, 0.333333)" fill="#FDC85E">
+                        <ellipse id="Oval-7" cx="4" cy="3.66666667" rx="1.33333333" ry="3.66666667"></ellipse>
+                        <ellipse id="Oval-7" transform="translate(4.000000, 3.666667) scale(-1, 1) rotate(90.000000) translate(-4.000000, -3.666667) " cx="4" cy="3.66666667" rx="1.33333333" ry="3.66666667"></ellipse>
+                    </g>
+                    <g id="Group-6" transform="translate(272.000000, 57.833333)" fill="#FDC85E">
+                        <ellipse id="Oval-7" cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                        <ellipse id="Oval-7" transform="translate(2.500000, 2.291667) scale(-1, 1) rotate(90.000000) translate(-2.500000, -2.291667) " cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                    </g>
+                    <g id="Group-6" transform="translate(264.000000, 44.833333)" fill="#FDC85E">
+                        <ellipse id="Oval-7" cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                        <ellipse id="Oval-7" transform="translate(2.500000, 2.291667) scale(-1, 1) rotate(90.000000) translate(-2.500000, -2.291667) " cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                    </g>
+                    <g id="Group-6" transform="translate(293.000000, 68.833333)" fill="#FDC85E">
+                        <ellipse id="Oval-7" cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                        <ellipse id="Oval-7" transform="translate(2.500000, 2.291667) scale(-1, 1) rotate(90.000000) translate(-2.500000, -2.291667) " cx="2.5" cy="2.29166667" rx="1" ry="2.29166667"></ellipse>
+                    </g>
+                    <g id="电费1-2" transform="translate(202.769531, 41.097656)">
+                        <path d="M19.8209976,18.0225975 L19.5165259,18.0225975 C14.3405063,18.3270692 10.001784,22.6657915 10.001784,27.9179291 C10.001784,30.5059389 10.8390813,32.8655949 12.5897938,34.6163074 L13.1987373,35.2252508 C14.3405063,36.6714916 14.9494498,36.9759633 14.9494498,38.7266758 L14.9494498,39.5639731 L24.7686634,39.5639731 L24.7686634,38.7266758 C24.7686634,36.9759633 25.3776069,36.3670199 26.5193759,35.2252508 L27.3566732,34.3879536 C28.802914,32.6372411 29.6402113,30.353703 29.6402113,27.994047 C29.6402113,22.3613198 25.301489,18.0225975 19.8209976,18.0225975" id="Shape" fill="#FFC263" fill-rule="nonzero"></path>
+                        <path d="M16.9285161,44.435521 C16.9285161,45.0444645 17.5374596,45.2728183 17.7658134,45.2728183 L21.800064,45.2728183 C22.4090075,45.2728183 22.6373613,44.9683465 22.6373612,44.435521 C22.6373612,43.9026955 22.0284177,43.5982237 21.800064,43.5982237 L17.7658134,43.5982237 C17.2329879,43.5982237 16.9285161,43.9026955 16.9285161,44.435521" id="Shape" fill="#FFC263" fill-rule="nonzero"></path>
+                        <path d="M19.8209976,22.132966 C16.6240444,22.132966 14.0360346,24.7209758 14.0360346,27.9179291 C14.0360346,28.5268726 14.6449781,28.7552264 14.8733319,28.7552264 C15.1016857,28.7552264 15.7106291,28.1462829 15.7106291,27.9179291 C15.7106291,25.8627448 17.4613416,23.8836785 19.7448797,23.8836785 C20.3538232,23.8836785 20.582177,23.274735 20.582177,23.0463812 C20.582177,22.8180274 20.4299411,22.132966 19.8209976,22.132966" id="Shape" fill="#FFC263" fill-rule="nonzero"></path>
+                        <path d="M14.9494498,41.5430395 C14.9494498,42.151983 15.5583933,42.3803368 15.7867471,42.3803368 L23.5507765,42.3803368 C24.15972,42.3803368 24.3880738,42.075865 24.3880738,41.5430395 C24.3880738,40.934096 23.7791303,40.7057422 23.5507765,40.7057422 L15.7867471,40.7057422 C15.4822753,40.7057422 14.9494498,40.934096 14.9494498,41.5430395" id="Shape" fill="#FFC263" fill-rule="nonzero"></path>
+                        <ellipse id="Oval-2" fill="#F9E173" opacity="0.104676178" cx="20" cy="20.1542969" rx="13.8110152" ry="13.5682434"></ellipse>
+                        <ellipse id="Oval-2-Copy" fill="#F9D873" opacity="0.18115942" cx="20" cy="20.1542969" rx="20" ry="19.6484375"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

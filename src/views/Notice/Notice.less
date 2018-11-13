@@ -1,0 +1,92 @@
+// // 公用清楚浮动
+.clearFloat(){
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+}
+// 公用清楚浮动
+.bg {
+  background: #F4F0EF;
+  overflow: hidden;
+}
+.NoticeBanner {
+  width: 100%;
+  height: 10.38rem;
+  background: url("../../assets/Other/NoticeBanner.svg")no-repeat center;
+  background-size: 100% 100%;
+}
+.MH-Notice {
+  height: 3.19rem;
+  width: 94%;
+  margin: 0.58rem auto;
+  background: white;
+  box-shadow:0.31rem 0.38rem 0.44rem 0rem rgba(215,203,203,0.5);
+  &::after{
+    .clearFloat;
+  }
+  .MH-Notice-time {
+    float: left;
+    width: 4rem;
+    height: 3.13rem;
+    text-align: center;
+    color: white;
+    background:linear-gradient(180deg,rgba(253,134,84,1) 0%,rgba(253,106,86,1) 100%);
+    .Tian {
+      font-size: 1.25rem;
+      margin: 0.2rem 0 0;
+    }
+    .Yue {
+      font-size: 0.75rem;
+    }
+  }
+  .MH-Notice-content {
+    float: right;
+    width: 16.5rem;
+    position: relative;
+    h2 {
+      color: #333333;
+      font-size: 0.88rem;
+      line-height:1.25rem;
+      margin: 0.23rem 0 0.03rem;
+    }
+    p {
+      color: #787878;
+      font-size: 0.75rem;
+      height:1.06rem;
+      line-height: 1.06rem;
+    }
+    span {
+      position: absolute;
+      top: 0.28rem;
+      right:0.13rem;
+      font-size: 0.63rem;
+      color: #949494;
+    }
+  }
+}
+// 详情
+.Detail-title {
+  text-align: center;
+  font-size: 1.13rem;
+  margin-top: 1.34rem;
+}
+.Detail-line {
+  width:20.06rem;
+  border-top:0.06rem solid #E8E8E8;
+  margin: 0.97rem auto 1.94rem;
+}
+.Detail-content {
+  width: 94%;
+  margin: 0 auto;
+  color: #555555;
+  font-size: 1rem;
+  p {
+    margin-bottom: 1.38rem;
+  }
+  .text-right {
+    text-align: right;
+  }
+}

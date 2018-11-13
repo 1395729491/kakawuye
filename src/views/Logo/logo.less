@@ -1,0 +1,42 @@
+// // 公用清楚浮动
+.clearFloat(){
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+}
+// 公用清楚浮动
+.LogoBg {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/Logo/logoBg.svg') no-repeat;
+  background-size: 100%;
+  .LogoInput {
+    width: 16rem;
+    height:3rem;
+    background: rgba(3, 3, 3, 0.20);
+    margin: 14rem auto 7rem;
+    border-radius:1.28rem;
+    &:after {
+      .clearFloat;
+    }
+    i {
+      float: left;
+      margin: 0.5rem 0 0.5rem 1.2rem;
+      width: 2rem;
+      height: 2rem;
+      background: url('../../assets/Logo/LogoPen.svg') no-repeat center;
+    }
+    input {
+      float: right;
+      margin: 0;
+      width: 12rem;
+      font-size:0.875rem;
+      color:rgba(255,255,255,1);
+      line-height:3rem;
+    }
+  }
+}

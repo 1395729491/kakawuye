@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="26px" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>电费 (2)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="咔咔物业-首页" transform="translate(-129.000000, -346.000000)">
+            <g id="Group-15" transform="translate(113.000000, 346.000000)">
+                <g id="电费" transform="translate(16.473958, 0.750000)">
+                    <g id="电费-(2)" transform="translate(0.289779, 0.289779)">
+                        <path d="M17.0434399,1.21445945 L9.60897303,1.21445945 C8.7331454,1.21445945 7.74392054,1.92917576 7.42144307,2.80686402 L3.72363171,12.8682784 C3.40115424,13.7459412 3.84513426,14.4606575 4.72070697,14.4606575 L7.27353469,14.4606575 L4.68311178,22.0601099 C4.38135627,22.9450878 5.00548731,23.652285 5.88085613,23.652285 C6.52458763,23.6059983 7.02186359,22.7888702 7.60625844,22.0601099 L16.7405374,10.667724 C17.3249322,9.93896363 16.6192387,9.07552331 15.7434621,9.07552331 L13.8422673,9.07552331 L18.0405151,2.80686404 C18.5604501,2.03013477 17.9190126,1.21445945 17.0434399,1.21445945 Z" id="Shape" fill="#FFDC3D" fill-rule="nonzero"></path>
+                        <path d="M8.91647111,4.21022097 L7.71647111,7.81022097" id="Line" stroke="#FFFFFF" stroke-linecap="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
