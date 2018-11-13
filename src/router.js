@@ -158,5 +158,13 @@ export default new Router({
         title: '设施维修'
       }
     },
+    {
+      path:'/maintaininfo',
+      name:'maintaininfo',
+      component:()=>import('./views/Maintain/MaintainInfo.vue'),
+      meta: {
+        title: '确认报修'
+      }
+    },
   ]
 })
