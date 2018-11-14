@@ -55,7 +55,7 @@
           </div>
           </div> 
       </div>
-      <fbtn>提交报修</fbtn>
+      <fbtn @click.native="GoMTInfo">提交报修</fbtn>
       <!--  -->
       <div class="SelectBg" v-show="SelectBg">
           <div class="SelectContext">
@@ -79,8 +79,8 @@ export default {
   components: { fbtn },
   data() {
     return {
-      startime:'2012-03-16 15:13',
-      enttime:'2019-10-21 22:21',
+      startime: "2012-03-16 15:13",
+      enttime: "2019-10-21 22:21",
       SelectBg: false,
       datetime: "",
       SelectList: [
@@ -135,6 +135,9 @@ export default {
     },
     open() {
       this.$refs.datetime.open();
+    },
+    GoMTInfo() {
+      this.$router.push({name:'maintaininfo'});
     }
   },
   computed: {
@@ -148,8 +151,8 @@ export default {
       return temp.join(",");
     }
   },
-  mounted(){
-       // 获取当前时间
+  mounted() {
+    // 获取当前时间
     const myDate = new Date();
     const year = myDate.getFullYear();
     const month = myDate.getMonth() + 1;

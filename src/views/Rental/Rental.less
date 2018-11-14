@@ -1,0 +1,208 @@
+.RT-box {
+  padding: 0 6%;
+  height: 3.5rem;
+  border-bottom:0.06rem solid #CECECE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  .RT-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    i {
+      width:2.11rem;
+      height: 1.81rem;
+      border-radius: 50%;
+      background: url("../../assets/Other/MTP.svg") no-repeat  center center;
+      background-size: 100%;
+    }
+    p {
+      margin-left: 1.19rem;
+      color: #25CD81;
+    }
+  }
+  .RT-surplus {
+    color: #979797;
+  }
+}
+.RTMyRental {
+  i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.08rem;
+    height: 1.58rem;
+    background: url("../../assets/Other/MTIcon.svg") no-repeat center;
+    background-size: 100%;
+  }
+}
+// 可以租用的列表
+.RTA-bg {
+  width: 100%;
+  height: 100%;;
+  background: #EEEEEE;
+  overflow: hidden;
+}
+.RTA-box {
+  width: 94%;
+  margin: 1.63rem auto 3rem;
+  background: white;
+  .RTA-title {
+      width: 14.39rem;
+      height: 2.75rem;
+      margin: 0 auto;
+      box-shadow:0rem 0.13rem 0.25rem 0rem rgba(202,223,232,1);
+      border-radius:0.44rem;
+      background: white;
+      line-height: 2.75rem;
+      text-align: center;
+      transform: translateY(-1.25rem);
+      span {
+        color: #25CD81;
+        font-size: 1.13rem;
+        display: inline-block;
+        margin: 0 1.06rem;
+      }
+  }
+  .RTA-list {
+    padding: 0 3%;
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      background: white;
+      li {
+        background: #25CD81;
+        border-radius: 0.13rem;
+        padding: 1%;
+        margin: 1%;
+        width: 31.33%;
+        margin-bottom: 1rem;
+        .RTA-list-top {
+          background: white;
+          color: #25CD81;
+          height: 3.75rem;
+          text-align: center;
+          border-radius: 0.13rem;
+          padding-top: 1.06rem;
+          p {
+            font-size: 0.5rem;
+          }
+        }
+        .RTA-list-bottom {
+          background: #25CD81;
+          color: white;
+          text-align: center;
+          height: 1.56rem;
+          line-height: 1.56rem;
+          border-radius:0.19rem;
+          font-size: 0.88rem;
+        }
+      }
+      .isused {
+        background: #D5D5D5;
+        .RTA-list-top {
+          color: #FF9191;
+        }
+        .RTA-list-bottom {
+          background: #D5D5D5;
+        }
+      }
+    }
+  }
+}
+// 选择租用方式
+.RTS-bg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #F3F3F3;
+  .RTS-banner {
+    width: 100%;
+    height: 10.25rem;
+    background: url("../../assets/Other/RTS-banner.svg") no-repeat center center;
+    background-size: cover;
+  }
+  .RTS-num {
+    padding: 0 3%;
+    height: 2.68rem;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    span {
+      font-size: 1rem;
+      color: #FE6B56;
+      margin-left: 0.5rem;
+    }
+  }
+  .RTS-way {
+    background: white;
+    padding: 0.5rem 0 ;
+    padding: 0 3%;
+    .RTS-way-title {
+      text-align: center;
+      color: #555555;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 0.19rem 0;
+      line-height: 1.38rem;
+      margin-bottom: 0.75rem;
+    }
+    .RTS-way-m {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+      .RTS-way-m-m {
+        color: #FF8484;
+      }
+      .RTS-way-m-r {
+        width:1.25rem;
+        height:1.25rem;
+        border:0.06rem solid #979797;
+        border-radius: 50%;
+      }
+      .RTSSelected {
+        background: url("../../assets/Other/RTS-selcected.svg") no-repeat center;
+        border: none;
+      }
+    }
+  }
+  .RTS-time {
+    margin-bottom: 3rem;
+    margin-top: 0.25rem;
+    .RTS-time-title {
+      padding: 0 3%;
+      height: 2.13rem;
+      line-height: 2.13rem;
+      background: white;
+      text-align: center;
+      color: #555555;
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 0.19rem 0;
+    }
+    .RTS-time-t {
+      padding: 0 3%;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+      color: #555555;
+      height: 2.6rem;
+    }
+    .RTS-time-n {
+      padding: 0 3%;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+      color: #555555;
+      height: 2.6rem;
+      margin-top: 0.19rem;
+    }
+  }
+}
