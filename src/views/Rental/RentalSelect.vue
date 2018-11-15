@@ -28,12 +28,16 @@
           </div>
           <div class="RTS-time-n">
               <p>租用数量</p>
-              <div>
-                -3+
+              <div class="num-oper">
+                  <span class="num-sub"> 
+                    <span>——</span>  
+                  </span>
+                  <span class="num-num">3</span>
+                  <span class="num-add">+</span>
               </div>
           </div>
       </div>
-      <fbtn>立即租用</fbtn>
+      <fbtn @click.native="GoRTWirte">立即租用</fbtn>
   </div>
 </template>
 <script>
@@ -54,6 +58,9 @@ export default {
     RTSY() {
       this.mSelect = false;
       this.ySelect = true;
+    },
+    GoRTWirte() {
+      this.$router.push({name:'rentalwrite'});
     }
   }
 };

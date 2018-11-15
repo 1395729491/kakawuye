@@ -187,6 +187,22 @@ export default new Router({
       meta: {
         title: '车位租用'
       }
-    }
+    },
+    {
+      path: '/rentalwrite',
+      name: 'rentalwrite',
+      component: () => import('./views/Rental/RentalWrite.vue'),
+      meta: {
+        title: '填写订单'
+      }
+    },
+    {
+      path:'/rentalverify',
+      name:'rentalverify',
+      component:()=>import('./views/Rental/RentalVerify.vue'),
+      meta: {
+        title: '确认订单'
+      }
+    },
   ]
 })

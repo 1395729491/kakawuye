@@ -10,6 +10,7 @@
                       v-for="(retalist,index) in ReatalAList"
                       :key="index"
                       :class="{isused:retalist.isUsed}"
+                      @click="GoRTSelect(retalist.isUsed)"
                     >
                         <div class="RTA-list-top">
                             {{ retalist .areaText}} : {{ retalist.numText }}
@@ -74,6 +75,15 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+      GoRTSelect(_isUsed){
+        if(_isUsed==false){
+          this.$router.push({name:'rentalselect'});
+        }else{
+          return false;
+        }
+      }
   }
 };
 </script>

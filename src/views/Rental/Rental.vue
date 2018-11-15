@@ -3,6 +3,7 @@
         <div class="RT-box" 
             v-for="(retalarea,index) in RetalArea" 
             :key="index"
+            @click="GoRTArea"
         >
             <div class="RT-area">
                 <i></i>
@@ -41,6 +42,11 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    GoRTArea(){
+      this.$router.push({name:'rentalarea'});
+    }
   }
 };
 </script>
