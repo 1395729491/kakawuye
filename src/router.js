@@ -197,11 +197,99 @@ export default new Router({
       }
     },
     {
-      path:'/rentalverify',
-      name:'rentalverify',
-      component:()=>import('./views/Rental/RentalVerify.vue'),
+      path: '/rentalverify',
+      name: 'rentalverify',
+      component: () => import('./views/Rental/RentalVerify.vue'),
       meta: {
         title: '确认订单'
+      }
+    },
+    {
+      path: '/mycarport',
+      name: 'mycarport',
+      component: () => import('./views/MyCarport/MyCarport.vue'),
+      meta: {
+        title: '我的车位'
+      }
+    },
+    {
+      path: '/mycarportno',
+      name: 'mycarportno',
+      component: () => import('./views/MyCarport/MyCarportNO.vue'),
+      meta: {
+        title: '我的车位'
+      }
+    },
+    {
+      path: '/myrenthistory',
+      name: 'myrenthistory',
+      component: () => import('./views/MyCarport/MyRentHistory.vue'),
+      meta: {
+        title: '租用记录'
+      }
+    },
+    {
+      path: '/myRentHistoryDetail',
+      name: 'myRentHistoryDetail',
+      component: () => import('./views/MyCarport/MyRentHistoryDetail.vue'),
+      meta: {
+        title: '租用记录'
+      }
+    },
+    {
+      path: '/ship',
+      name: 'ship',
+      component: () => import('./views/Ship/Ship.vue'),
+      meta: {
+        title: '填写表单'
+      }
+    },
+    {
+      path: '/shipsuc',
+      name: 'shipsuc',
+      component: () => import('./views/Ship/ShipSuccess.vue'),
+      meta: {
+        title: '下单成功'
+      }
+    },
+    {
+      path: '/housewifery',
+      name: 'housewifery',
+      component: () => import('./views/Housewifery/Housewifery.vue'),
+      meta: {
+        title: '咔咔家政'
+      }
+    },
+    {
+      path: '/housedetail',
+      name: 'housedetail',
+      component: () => import('./views/Housewifery/HouseDetail.vue'),
+      meta: {
+        title: '咔咔家政'
+      }
+    },
+    {
+      path: '/houseorder',
+      name: 'houseorder',
+      component: () => import('./views/Housewifery/HouseOrder.vue'),
+      meta: {
+        title: '咔咔家政'
+      }
+    },
+    {
+      path: '/housersure',
+      name: 'housersure',
+      component: () => import('./views/Housewifery/HouseSure.vue'),
+      meta: {
+        title: '咔咔家政'
+      }
+    },
+    {
+      path: '/minebills',
+      name: 'minebills',
+      component: () => import('./views/MineBills/MineBills.vue'),
+      meta: {
+        title: '我的账单'
       }
     },
   ]

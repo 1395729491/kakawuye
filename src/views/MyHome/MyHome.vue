@@ -5,7 +5,7 @@
               <i></i>当前房产:XX小区XX栋XX单元XX号
           </div>
           <div class="MH-top-right">
-              >
+              <i></i>
           </div>
       </div>
       <div class="MH-lunbo">
@@ -40,7 +40,7 @@
       <div class="MH-Services">
           <p class="MH-Services-title">生活服务</p>
           <ul>
-              <li v-for="(item,index) in Services" :key="index">
+              <li v-for="(item,index) in Services" :key="index" @click="MHSerNav(index)">
                   <img :src="item.imgurl" alt="">
                   <p>{{ item.text }}</p>
               </li>
@@ -135,6 +135,17 @@ export default {
         this.$router.push({name:'maintain'});
       }else if(index==7){
         this.$router.push({name:'rental'});
+      }else{
+        return false;
+      }
+    },
+    MHSerNav(index){
+      if(index==0){
+        this.$router.push({name:'ship'});
+      }else if(index==1){
+        this.$router.push({name:'housewifery'});
+      }else if(index==2){
+        this.$router.push({name:'notlist'});
       }else{
         return false;
       }

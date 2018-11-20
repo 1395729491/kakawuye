@@ -9,7 +9,7 @@
       <div class="MM-box">
           <div class="MM-nav">
               <ul>
-                  <li v-for="(item,index) in MineNav" :key="index">
+                  <li v-for="(item,index) in MineNav" :key="index" @click="GoMineNav(index)">
                       <img :src="item.imgurl" alt="">
                       <p>{{ item.text }}</p>
                   </li>
@@ -67,6 +67,19 @@ export default {
           },
         ]
     }
+  },
+  methods:{
+      GoMineNav(index){
+          if(index==0){
+              this.$router.push({name:'minebills'});
+          }else if(index==1){
+              this.$router.push({name:''});
+          }else if(index==2){
+              this.$router.push({name:''});
+          }else{
+              return false;
+          }
+      }
   }
 }
 </script>

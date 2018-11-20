@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="115px" viewBox="0 0 128 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>咔咔物业-首页-咔咔寄件-确认订单</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-14.5019924%" y1="43.1728167%" x2="120.424348%" y2="60.3065774%" id="linearGradient-1">
+            <stop stop-color="#FFD3A7" offset="0%"></stop>
+            <stop stop-color="#FFE08F" offset="100%"></stop>
+        </linearGradient>
+        <path d="M17.4134501,42.1493921 C20.8961401,42.1493921 23.881303,45.098115 23.881303,48.9141093 C23.881303,52.5566494 21.0619825,55.6788266 17.4134501,55.6788266 C13.9307601,55.6788266 10.9455972,52.7301037 10.9455972,48.9141093 C10.9455972,45.098115 13.9307601,42.1493921 17.4134501,42.1493921 Z M54.0646166,42.1493921 C57.5473066,42.1493921 60.5324695,45.098115 60.5324695,48.9141093 C60.5324695,52.5566494 57.713149,55.6788266 54.0646166,55.6788266 C50.5819266,55.6788266 47.5967637,52.7301037 47.5967637,48.9141093 C47.5967637,45.098115 50.5819266,42.1493921 54.0646166,42.1493921 Z M50.9136114,30.8748633 L50.9136114,16.825066 L57.5473066,16.825066 C58.0448338,16.825066 58.5423609,17.5188832 58.5423609,17.5188831 L64.1810019,28.6199576 C64.678529,29.3137748 65.1760562,30.3545005 65.1760562,31.0483176 L50.9136114,31.0483176 L50.9136114,30.8748633 Z M67.6636919,25.3243261 L61.6933662,14.0497973 C60.5324695,12.4887088 59.7032576,11.2745288 57.713149,11.2745288 L48.2601332,11.2745288 L48.2601332,2.77526859 C48.2601332,1.21418002 47.0992365,0 45.6066551,0 L2.65347809,0 C1.16089667,0 0,1.21418002 0,2.77526859 L0,45.098115 C0,46.6592036 1.16089667,47.8733836 2.65347809,47.8733836 L7.96043433,47.8733836 C8.62380388,43.0166635 12.604021,39.2006692 17.4134501,39.2006692 C22.2228792,39.2006692 26.2030964,43.0166635 26.8664659,47.8733836 L45.6066551,47.8733836 C46.2700247,43.0166635 50.2502418,39.2006692 55.0596709,39.2006692 C59.8691,39.2006692 63.8493172,43.0166635 64.5126867,47.8733836 L67.1661648,47.8733836 C68.6587462,47.8733836 69.8196429,46.6592036 69.8196429,45.098115 L69.8196429,31.0483176 C69.6538005,28.273049 67.6636919,25.3243261 67.6636919,25.3243261 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="咔咔物业-首页-咔咔寄件-确认订单" transform="translate(-124.000000, -122.000000)">
+            <rect id="bg" fill="#F4F0EF" x="0" y="0" width="375" height="667"></rect>
+            <rect id="Rectangle-2" fill="#F0F0F0" x="0" y="62" width="375" height="605"></rect>
+            <g id="Group-6" transform="translate(-2.500000, 61.325312)">
+                <rect id="Rectangle-46" fill="#FFFEFD" x="0.572195291" y="0.268871191" width="377.904259" height="606.405817"></rect>
+                <g id="Group-7" transform="translate(132.524325, 68.390084)">
+                    <rect id="Rectangle-3" fill="#FFD5A2" x="10.9627337" y="96.1759868" width="97.6259522" height="3.55003463" rx="1.77501731"></rect>
+                    <g id="Group-3" transform="translate(0.425121, 0.325052)" fill="#FFE3CC">
+                        <g id="Group-2" transform="translate(98.400970, 0.000000)">
+                            <ellipse id="Oval-9" cx="7.10006925" cy="6.2125606" rx="1.77501731" ry="6.2125606"></ellipse>
+                            <ellipse id="Oval-9" transform="translate(7.100069, 6.212561) rotate(90.000000) translate(-7.100069, -6.212561) " cx="7.10006925" cy="6.2125606" rx="1.77501731" ry="6.2125606"></ellipse>
+                        </g>
+                        <g id="Group-2-Copy" transform="translate(93.075918, 35.677650)">
+                            <ellipse id="Oval-9" cx="3.95586607" cy="3.46138281" rx="1" ry="3.46138281"></ellipse>
+                            <ellipse id="Oval-9" transform="translate(3.955866, 3.461383) rotate(90.000000) translate(-3.955866, -3.461383) " cx="3.95586607" cy="3.46138281" rx="1" ry="3.46138281"></ellipse>
+                        </g>
+                        <g id="Group-2-Copy-2" transform="translate(0.768084, 79.875779)">
+                            <ellipse id="Oval-9" cx="6.26036409" cy="5.47781858" rx="1.56509102" ry="5.47781858"></ellipse>
+                            <ellipse id="Oval-9" transform="translate(6.260364, 5.477819) rotate(90.000000) translate(-6.260364, -5.477819) " cx="6.26036409" cy="5.47781858" rx="1.56509102" ry="5.47781858"></ellipse>
+                        </g>
+                        <g id="Group-2-Copy-3" opacity="0.187047101" transform="translate(12.201691, 15.975156)">
+                            <ellipse id="Oval-9" cx="6.26036409" cy="5.47781858" rx="1.56509102" ry="5.47781858"></ellipse>
+                            <ellipse id="Oval-9" transform="translate(6.260364, 5.477819) rotate(90.000000) translate(-6.260364, -5.477819) " cx="6.26036409" cy="5.47781858" rx="1.56509102" ry="5.47781858"></ellipse>
+                        </g>
+                    </g>
+                    <g id="快递-copy" transform="translate(34.925467, 39.375433)">
+                        <g id="Path-3">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                    <g id="Group-4" transform="translate(6.525190, 39.375433)">
+                        <rect id="Rectangle-48" fill="#FFD6A2" x="20.5251904" y="0" width="14.2001385" height="6.32999992" rx="3.16499996"></rect>
+                        <rect id="Rectangle-48-Copy-2" fill="#FFD6A2" x="15.7532787" y="13.4251212" width="22.298655" height="7.10006925" rx="3.55003463"></rect>
+                        <rect id="Rectangle-48-Copy-3" fill="#FFD6A2" x="0.880574995" y="19.5251904" width="35.3963413" height="7.10006925" rx="3.55003463"></rect>
+                        <rect id="Rectangle-48-Copy-5" fill="#FFD6A2" x="12.3141826" y="33.7253289" width="22.298655" height="7.10006925" rx="3.55003463"></rect>
+                        <rect id="Rectangle-48-Copy" fill="#FFFFFF" x="19.5251904" y="6.32505194" width="17.7501731" height="7.10006925" rx="3.55003463"></rect>
+                        <rect id="Rectangle-48-Copy-4" fill="#FFFFFF" x="16.2525023" y="26.6252597" width="17.7501731" height="7.10006925" rx="3.55003463"></rect>
+                    </g>
+                    <rect id="Rectangle-47" fill="#FFFFFF" x="67.0512465" y="42.915744" width="3.55003463" height="1.52144341" rx="0.760721706"></rect>
+                    <rect id="Rectangle-47" fill="#FFFFFF" x="72.3762985" y="42.5353832" width="7.10006925" height="2.28216512" rx="1.14108256"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

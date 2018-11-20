@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="13px" viewBox="0 0 26 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>箭头 (3)</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.00290313948" width="375" height="47"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="咔咔物业-首页-车位租用-我的车位" transform="translate(-339.000000, -446.000000)">
+            <g id="Group-2" transform="translate(0.000000, 429.000000)">
+                <g id="Rectangle-59-Copy-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#DFDFDF" stroke-width="1" x="0.5" y="0.502903139" width="374" height="46"></rect>
+                </g>
+                <path d="M347.060804,18.5143386 L357.723239,18.5143386 C358.3133,18.5143386 358.790506,18.9878544 358.790506,19.5779459 C358.790506,19.8522489 358.685212,20.1003728 358.516188,20.2883335 L353.243372,27.323983 C352.890046,27.7899366 352.224788,27.887774 351.755038,27.534448 C351.672371,27.4743151 351.60094,27.4027783 351.544573,27.3238767 L346.211382,20.2132434 C345.861959,19.7471835 345.955893,19.0783422 346.425613,18.7287061 C346.61737,18.5820792 346.839102,18.5144449 347.060804,18.5144449 L347.060804,18.5143386 Z" id="Shape" fill="#6169FB" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

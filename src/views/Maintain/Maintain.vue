@@ -10,7 +10,7 @@
           <span>选择设施</span>
           <div class="fill-right" @click="selectSB">
               <p >{{ Selects }}</p>
-              <i>></i>
+              <i></i>
           </div> 
       </div>
       <div class="MT-fill">
@@ -21,7 +21,7 @@
 
                 </yd-datetime>
             </p>
-             <i>></i>
+             <i></i>
           </div> 
       </div>
       <div class="MT-desc">

@@ -20,6 +20,7 @@ export default {
       bottom: 0;
       left: 0;
       width: 100%;
+      z-index: 99;
       height:2.85rem;
       background:linear-gradient(227deg,rgba(255,139,85,1) 0%,rgba(255,102,87,1) 100%);
       box-shadow:-0.25rem 0.38rem 1.44rem -0.31rem rgba(156,31,7,1);
