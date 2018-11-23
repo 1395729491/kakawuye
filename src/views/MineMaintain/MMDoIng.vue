@@ -20,17 +20,14 @@
                 <img src="@/assets/Other/test1.svg" alt="">
             </div>
       </div>
-      <fbtn @click.native="GoPaySuc()">确认提交</fbtn>
+      <p class="MMD-tips">状态 : <span>已受理</span></p>
+      <p class="MMD-tipss MMD-marginBottom3rem">*保修已受理我们会尽快安排人员检修,请耐心等待</p>
   </div>
 </template>
 <script>
-import fbtn from "@/components/fiexbtn.vue";
 export default {
-  components: { fbtn },
   data() {
     return {
-      mestip:'报修成功,请耐心等待工作人员前去维修',
-      mesNum:' ',
       MTinfoList: [
         {
           spanText: "报修地址",
@@ -51,14 +48,11 @@ export default {
         }
       ]
     };
-  },
-  methods:{
-    GoPaySuc(){
-      this.$router.push({name:'paysuc',params:{mestip:this.mestip,mesNum:this.mesNum}});
-    }
   }
 };
 </script>
 <style lang="less" scoped>
-@import "./Maintain.less";
+@import "MineMaintain.less";
 </style>
+
+

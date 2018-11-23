@@ -46,7 +46,7 @@
       </div>
       <ftbtn>
           <div slot="left">总价:￥5300.00</div>
-          <div slot="right">立即支付</div>
+          <div slot="right" @click="GoPaySuc()">立即支付</div>
       </ftbtn>
   </div>
 </template>
@@ -56,6 +56,11 @@ export default {
   components: { ftbtn },
   data() {
     return {};
+  },
+  methods:{
+    GoPaySuc(){
+        this.$router.push({name:'paysuc'});
+    }
   }
 };
 </script>

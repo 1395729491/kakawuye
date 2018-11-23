@@ -41,11 +41,11 @@
               </div>
           </div>
         </div>
-        <div class="MC-histroy"> 
+        <div class="MC-histroy" @click="GoMyRenHistroy"> 
             <span>租用记录</span>
             <i></i>
         </div>
-        <fbtn>返回</fbtn>
+        <fbtn @click.native="Retuns">返回</fbtn>
   </div>
 </template>
 <script>
@@ -54,6 +54,14 @@ export default {
   components: { fbtn },
   data() {
     return {};
+  },
+  methods:{
+      Retuns(){
+          this.$router.go(-1);
+      },
+      GoMyRenHistroy(){
+          this.$router.push({name:'myrenthistory'});
+      }
   }
 };
 </script>

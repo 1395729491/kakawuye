@@ -29,7 +29,7 @@
              <p> 二、产妇的护理 1.日常清洁：协助产妇漱口、洗脸、洗脚、擦汗、会阴清洁;对家中 室温达到26℃、有淋浴设施等条件的产妇给予协助洗头、洗澡(应尊 重客户意见) </p>
           </div>
       </div>
-      <fbtn >立即下单</fbtn>
+      <fbtn @click.native="GoHouserOrder()">立即下单</fbtn>
   </div>
 </template>
 <script>
@@ -38,6 +38,11 @@ export default {
   components: { fbtn },
   data() {
     return {};
+  },
+  methods:{
+      GoHouserOrder(){
+          this.$router.push({name:'houseorder'});
+      }
   }
 };
 </script>

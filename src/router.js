@@ -292,5 +292,70 @@ export default new Router({
         title: '我的账单'
       }
     },
+    {
+      path: '/minebillsdatail',
+      name: 'minebillsdatail',
+      component: () => import('./views/MineBills/MineBillsDetail'),
+      meta: {
+        title: '账单详情'
+      }
+    },
+    {
+      path: '/mineindent',
+      name: 'mineindent',
+      component: () => import('./views/MineIndent/MineIndent.vue'),
+      meta: {
+        title: '我的快递'
+      }
+    },
+    {
+      path:'/mineidentdonedatail',
+      name:'mineidentdonedatail',
+      component:()=>import('./views/MineIndent/MineIdentDoneDatail.vue'),
+      meta:{
+        title:'已发件详情'
+      }
+    },
+    {
+      path:'/minemaintain',
+      name:'minemaintain',
+      component:()=>import('./views/MineMaintain/MineMaintain.vue'),
+      meta:{
+        title:'我的维修'
+      }
+    },
+    {
+      path:'/MMDoNo',
+      name:'MMDoNo',
+      component:()=>import('./views/MineMaintain/MMDoNo.vue'),
+      meta:{
+        title:'保修详情'
+      }
+    },
+    {
+      path:'/MMDoIng',
+      name:'MMDoIng',
+      component:()=>import('./views/MineMaintain/MMDoIng.vue'),
+      meta:{
+        title:'保修详情'
+      }
+    },
+    {
+      path:'/MMDoDone',
+      name:'MMDoDone',
+      component:()=>import('./views/MineMaintain/MMDoDone.vue'),
+      meta:{
+        title:'保修详情'
+      }
+    },
+    {
+      path:'/paysuc/:mestip/:mesNum',
+      name:'paysuc',
+      props:true,
+      component:()=>import('./views/PaySuc/pay-suc.vue'),
+      meta:{
+        title:'支付成功'
+      }
+    }
   ]
 })

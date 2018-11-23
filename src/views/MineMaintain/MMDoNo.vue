@@ -20,7 +20,8 @@
                 <img src="@/assets/Other/test1.svg" alt="">
             </div>
       </div>
-      <fbtn @click.native="GoPaySuc()">确认提交</fbtn>
+      <p class="MMD-tips MMD-marginBottom3rem">状态 : <span>未处理</span></p>
+      <fbtn>提醒</fbtn>
   </div>
 </template>
 <script>
@@ -29,8 +30,6 @@ export default {
   components: { fbtn },
   data() {
     return {
-      mestip:'报修成功,请耐心等待工作人员前去维修',
-      mesNum:' ',
       MTinfoList: [
         {
           spanText: "报修地址",
@@ -51,14 +50,11 @@ export default {
         }
       ]
     };
-  },
-  methods:{
-    GoPaySuc(){
-      this.$router.push({name:'paysuc',params:{mestip:this.mestip,mesNum:this.mesNum}});
-    }
   }
 };
 </script>
 <style lang="less" scoped>
-@import "./Maintain.less";
+@import "MineMaintain.less";
 </style>
+
+

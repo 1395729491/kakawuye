@@ -41,7 +41,7 @@
                 <p>贵A8888</p>
             </div>
         </div>
-        <fbtn>返回</fbtn>
+        <fbtn @click.native="Returns">返回</fbtn>
   </div>
 </template>
 <script>
@@ -52,6 +52,11 @@ export default {
     return{
 
     }
+  },
+  methods:{
+      Returns(){
+          this.$router.go(-1);
+      }
   }
 }
 </script>

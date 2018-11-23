@@ -34,7 +34,7 @@
             <div slot="left">
                 总价:20.00元
             </div>
-            <div slot="right">
+            <div slot="right" @click="GoPaySuc()">
                   立即支付
             </div>
         </ftbtn>
@@ -46,6 +46,8 @@ export default {
   components: { ftbtn },
   data() {
     return {
+        mestip:'支付成功!请在租用时间段前去停车！您的车位是',
+        mesNum:'A区022',
         RTVInfoList:[
           {
             spanText:'租用车位',
@@ -75,7 +77,9 @@ export default {
     };
   },
   methods:{
-
+      GoPaySuc(){
+          this.$router.push({name:'paysuc',params:{mestip:this.mestip,mesNum:this.mesNum}});
+      }
   }
 };
 </script>

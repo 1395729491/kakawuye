@@ -20,7 +20,9 @@
                 <img src="@/assets/Other/test1.svg" alt="">
             </div>
       </div>
-      <fbtn @click.native="GoPaySuc()">确认提交</fbtn>
+      <p class="MMD-tips">状态 : <span>已处理</span></p>
+      <p class="MMD-tipss MMD-tips-title">*维修已完成,设备科正常使用，感谢您对社区做出的贡献!</p>
+      <fbtn>删除</fbtn>
   </div>
 </template>
 <script>
@@ -29,8 +31,6 @@ export default {
   components: { fbtn },
   data() {
     return {
-      mestip:'报修成功,请耐心等待工作人员前去维修',
-      mesNum:' ',
       MTinfoList: [
         {
           spanText: "报修地址",
@@ -51,14 +51,11 @@ export default {
         }
       ]
     };
-  },
-  methods:{
-    GoPaySuc(){
-      this.$router.push({name:'paysuc',params:{mestip:this.mestip,mesNum:this.mesNum}});
-    }
   }
 };
 </script>
 <style lang="less" scoped>
-@import "./Maintain.less";
+@import "MineMaintain.less";
 </style>
+
+

@@ -35,11 +35,46 @@
   }
   .MB-list-item {
     width: 94%;
+    padding:0 2%;
     margin:0 auto;
     height: 2.44rem;
     background: white;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    .MB-list-item-left {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 0.31rem;
+      }
+      p {
+        color: #555555;
+        font-size: 0.88rem;
+      }
+    }
+    .MB-list-item-right {
+      color: #999999;
+      font-size: 0.88rem;
+    }
+  }
+}
+// 我的账单详情
+.MBD-content {
+  padding: 0 3%;
+  overflow: hidden;
+  margin-bottom: 11rem;
+  .MBD-content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+    span {
+      color: #737373;
+    }
+    p {
+      color: #AAAAAA;
+    }
   }
 }

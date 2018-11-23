@@ -73,9 +73,9 @@ export default {
           if(index==0){
               this.$router.push({name:'minebills'});
           }else if(index==1){
-              this.$router.push({name:''});
+              this.$router.push({name:'mineindent'});
           }else if(index==2){
-              this.$router.push({name:''});
+              this.$router.push({name:'minemaintain'});
           }else{
               return false;
           }

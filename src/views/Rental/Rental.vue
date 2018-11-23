@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="RTMyRental">
-            <fbtn>
+            <fbtn @click.native="GoMiCarPort">
                 <i></i>
                 我的车位
             </fbtn>
@@ -46,6 +46,10 @@ export default {
   methods: {
     GoRTArea(){
       this.$router.push({name:'rentalarea'});
+    },
+    GoMiCarPort(){
+      // 有车位跳转有车位 没车位跳转没车位
+      this.$router.push({name:'mycarport'});
     }
   }
 };

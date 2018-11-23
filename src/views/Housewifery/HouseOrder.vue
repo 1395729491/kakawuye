@@ -28,7 +28,7 @@
               <i></i>
           </div>
       </div>
-      <fbtn>立即支付</fbtn>
+      <fbtn @click.native="GoHouseSure">立即支付</fbtn>
   </div>
 </template>
 <script>
@@ -37,6 +37,11 @@ export default {
   components: { fbtn },
   data() {
     return {};
+  },
+  methods:{
+    GoHouseSure(){
+      this.$router.push({name:'housersure'});
+    }
   }
 };
 </script>

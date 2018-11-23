@@ -32,7 +32,7 @@
             <p>支付方式</p>
             <p>微信支付<i></i></p>
       </div>
-      <btn>立即支付</btn>
+      <btn  @click.native="GoPayScu()">立即支付</btn>
   </div>
 </template>
 <script>
@@ -43,6 +43,11 @@ export default {
     return {
 
     }
+  },
+   methods:{
+      GoPayScu(){
+          this.$router.push({name:'paysuc'});
+      }
   }
 }
 </script>

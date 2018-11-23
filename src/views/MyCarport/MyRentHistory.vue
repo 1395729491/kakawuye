@@ -1,6 +1,6 @@
 <template>
   <div class="MRH-bg">
-      <div class="MRH-content">
+      <div class="MRH-content" @click="MyRenHistoryDetail()">
           <p class="MRH-content-time">2018年7月3日</p>
           <div class="MRH-item">
                 <div class="MRH-item-area">
@@ -15,7 +15,7 @@
                 </div>
           </div>
       </div>
-       <div class="MRH-content">
+       <div class="MRH-content" @click="MyRenHistoryDetail()">
           <p class="MRH-content-time">2018年7月3日</p>
           <div class="MRH-item">
                 <div class="MRH-item-area">
@@ -30,7 +30,7 @@
                 </div>
           </div>
       </div>
-       <div class="MRH-content">
+       <div class="MRH-content" @click="MyRenHistoryDetail()">
           <p class="MRH-content-time">2018年7月3日</p>
           <div class="MRH-item">
                 <div class="MRH-item-area">
@@ -45,7 +45,7 @@
                 </div>
           </div>
       </div>
-      <fbtn>返回</fbtn>
+      <fbtn @click.native="Returns">返回</fbtn>
   </div>
 </template>
 <script>
@@ -56,6 +56,14 @@ export default {
     return{
 
     }
+  },
+  methods:{
+      Returns(){
+          this.$router.go(-1);
+      },
+      MyRenHistoryDetail(){
+          this.$router.push({name:'myRentHistoryDetail'});
+      }
   }
 }
 </script>

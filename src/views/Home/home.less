@@ -13,12 +13,15 @@
         text-align: center;
         text-decoration: none;
         display: block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         i {
           width: 2.31rem;
           height: 1.63rem;
           display: block;
+          flex: 1;
           margin: 0.24rem auto 0;
-          overflow: hidden;
         }
         p {
           font-size: 0.63rem;
@@ -31,13 +34,13 @@
     i {
       width: 2.31rem;
       height: 1.63rem;
-      background: url("../../assets/Home/home-home.svg")no-repeat center center;
+      background: url("../../assets/Home/home-home.svg")no-repeat center top;
     }
     .router-link-active {
       i {
         width: 2.31rem;
         height: 1.63rem;
-        background: url("../../assets/Home/home-home-active.svg") no-repeat center center;
+        background: url("../../assets/Home/home-home-active.svg") no-repeat center top;
       }
       p {
         color: #FE7C5C;
@@ -48,14 +51,14 @@
     i {
       width: 2.31rem;
       height: 1.63rem;
-      background: url("../../assets/Home/home-my.svg") no-repeat center center;
+      background: url("../../assets/Home/home-my.svg") no-repeat center top;
       // background-size: 100%;
     }
     .router-link-active {
       i {
         width: 2.31rem;
         height: 1.63rem;
-        background: url("../../assets/Home/home-my-active.svg") no-repeat center center;
+        background: url("../../assets/Home/home-my-active.svg") no-repeat center top;
         // background-size: 100%;
       }
       p {

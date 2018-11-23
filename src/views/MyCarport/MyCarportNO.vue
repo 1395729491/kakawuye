@@ -8,7 +8,7 @@
             <span>租用记录</span>
             <i></i>
         </div>
-        <fbtn>返回</fbtn>
+        <fbtn @click.native="Returns">返回</fbtn>
   </div>
 </template>
 <script>
@@ -17,6 +17,11 @@ export default {
   components: { fbtn },
   data() {
     return {};
+  },
+  methods:{
+    Returns(){
+      this.$router.go(-1);
+    }
   }
 };
 </script>

@@ -113,7 +113,7 @@ export default {
   },
   methods:{
       GOELINFO(){
-          this.$router.push({name:"elctrinfo"});
+          this.$router.push({name:"gasinfo"});
       }
   }
 }
